@@ -1,0 +1,43 @@
+/* styles.css */
+
+/* Styles for div elements */
+.image-container {
+    font-size: 20px;
+    margin: 25px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ddd;
+}
+
+/* Set background color to dark blue */
+body {
+    background-color: #162638;
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+}
+
+/* Styles for images */
+img {
+    border: 4px solid #333; /* Add border around the image */
+    box-sizing: border-box; /* Ensure border is included in width and height */
+    width: 300px;
+    height: 300px; /* Adjusted height to fit images properly */
+    object-fit: cover; /* Ensure images cover the entire container */
+}
+
+/* Styles for image alt text */
+.image-alt {
+    margin-top: 10px; /* Add some space between alt text and credits */
+    font-weight: bold; /* Make alt text bold */
+}
+
+/* Copyright  styling */
+.credits {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}

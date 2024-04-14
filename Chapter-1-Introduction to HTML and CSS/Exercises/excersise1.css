@@ -1,0 +1,43 @@
+h1 {
+    color: #e67300;
+    font-size: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #990099;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: circle;
+    margin: 0;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+ol {
+    margin-left: 30px;
+}
+
+ol li {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+body {
+    background-color: #ccffcc;
+}

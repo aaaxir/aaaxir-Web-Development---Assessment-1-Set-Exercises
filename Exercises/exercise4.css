@@ -1,0 +1,56 @@
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Header Styles */
+header {
+    background-color: #17072b; /* Dark purple */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav a {
+    color: #fff; /* White links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Add spacing between links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover {
+    color: #ffd700; /* Change color to gold on hover */
+}
+
+/* Aside Styles */
+aside {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #333; /* Dark gray text */
+    background-color: #fff; /* White background */
+    float: right;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    text-align: justify; /* Justify text for better readability */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #388772; /* Teal */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+}

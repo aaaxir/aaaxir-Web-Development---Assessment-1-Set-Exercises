@@ -1,0 +1,74 @@
+body, h1, label, input, button, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5; /* Light grey background color */
+    color: #333; /* Dark grey text color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 2px solid #999;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #fff; /* White background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #007bff; /* Blue heading color */
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555; /* Dark grey label color */
+}
+
+input[type="number"] {
+    width: calc(100% - 20px); /* Adjusting width to accommodate padding */
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #007bff; /* Blue border color on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Blue box shadow on focus */
+}
+
+button {
+    display: inline-block;
+    padding: 14px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4caf50; /* Green button color */
+    color: #fff; /* White text color */
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+
+p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #888; /* Light grey text color */
+}
